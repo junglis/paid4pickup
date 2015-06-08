@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA310B3C1B2618BC00954039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B3B1B2618BC00954039 /* AppDelegate.swift */; };
+		DA310B3F1B2618BC00954039 /* paid4pickup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA310B3D1B2618BC00954039 /* paid4pickup.xcdatamodeld */; };
+		DA310B411B2618BC00954039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B401B2618BC00954039 /* ViewController.swift */; };
+		DA310B441B2618BC00954039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA310B421B2618BC00954039 /* Main.storyboard */; };
+		DA310B461B2618BC00954039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA310B451B2618BC00954039 /* Images.xcassets */; };
+		DA310B491B2618BC00954039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA310B471B2618BC00954039 /* LaunchScreen.xib */; };
+		DA310B551B2618BC00954039 /* paid4pickupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B541B2618BC00954039 /* paid4pickupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA310B4F1B2618BC00954039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA310B2E1B2618BB00954039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA310B351B2618BC00954039;
+			remoteInfo = paid4pickup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA310B361B2618BC00954039 /* paid4pickup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paid4pickup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA310B3A1B2618BC00954039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA310B3B1B2618BC00954039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA310B3E1B2618BC00954039 /* paid4pickup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = paid4pickup.xcdatamodel; sourceTree = "<group>"; };
+		DA310B401B2618BC00954039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA310B431B2618BC00954039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA310B451B2618BC00954039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA310B481B2618BC00954039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA310B4E1B2618BC00954039 /* paid4pickupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paid4pickupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA310B531B2618BC00954039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA310B541B2618BC00954039 /* paid4pickupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paid4pickupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA310B331B2618BC00954039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA310B4B1B2618BC00954039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA310B2D1B2618BB00954039 = {
+			isa = PBXGroup;
+			children = (
+				DA310B381B2618BC00954039 /* paid4pickup */,
+				DA310B511B2618BC00954039 /* paid4pickupTests */,
+				DA310B371B2618BC00954039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA310B371B2618BC00954039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA310B361B2618BC00954039 /* paid4pickup.app */,
+				DA310B4E1B2618BC00954039 /* paid4pickupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA310B381B2618BC00954039 /* paid4pickup */ = {
+			isa = PBXGroup;
+			children = (
+				DA310B3B1B2618BC00954039 /* AppDelegate.swift */,
+				DA310B401B2618BC00954039 /* ViewController.swift */,
+				DA310B421B2618BC00954039 /* Main.storyboard */,
+				DA310B451B2618BC00954039 /* Images.xcassets */,
+				DA310B471B2618BC00954039 /* LaunchScreen.xib */,
+				DA310B3D1B2618BC00954039 /* paid4pickup.xcdatamodeld */,
+				DA310B391B2618BC00954039 /* Supporting Files */,
+			);
+			path = paid4pickup;
+			sourceTree = "<group>";
+		};
+		DA310B391B2618BC00954039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA310B3A1B2618BC00954039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA310B511B2618BC00954039 /* paid4pickupTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA310B541B2618BC00954039 /* paid4pickupTests.swift */,
+				DA310B521B2618BC00954039 /* Supporting Files */,
+			);
+			path = paid4pickupTests;
+			sourceTree = "<group>";
+		};
+		DA310B521B2618BC00954039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA310B531B2618BC00954039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA310B351B2618BC00954039 /* paid4pickup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA310B581B2618BC00954039 /* Build configuration list for PBXNativeTarget "paid4pickup" */;
+			buildPhases = (
+				DA310B321B2618BC00954039 /* Sources */,
+				DA310B331B2618BC00954039 /* Frameworks */,
+				DA310B341B2618BC00954039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paid4pickup;
+			productName = paid4pickup;
+			productReference = DA310B361B2618BC00954039 /* paid4pickup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA310B4D1B2618BC00954039 /* paid4pickupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA310B5B1B2618BC00954039 /* Build configuration list for PBXNativeTarget "paid4pickupTests" */;
+			buildPhases = (
+				DA310B4A1B2618BC00954039 /* Sources */,
+				DA310B4B1B2618BC00954039 /* Frameworks */,
+				DA310B4C1B2618BC00954039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA310B501B2618BC00954039 /* PBXTargetDependency */,
+			);
+			name = paid4pickupTests;
+			productName = paid4pickupTests;
+			productReference = DA310B4E1B2618BC00954039 /* paid4pickupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA310B2E1B2618BB00954039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = FCPT;
+				TargetAttributes = {
+					DA310B351B2618BC00954039 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DA310B4D1B2618BC00954039 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DA310B351B2618BC00954039;
+					};
+				};
+			};
+			buildConfigurationList = DA310B311B2618BC00954039 /* Build configuration list for PBXProject "paid4pickup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA310B2D1B2618BB00954039;
+			productRefGroup = DA310B371B2618BC00954039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA310B351B2618BC00954039 /* paid4pickup */,
+				DA310B4D1B2618BC00954039 /* paid4pickupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA310B341B2618BC00954039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA310B441B2618BC00954039 /* Main.storyboard in Resources */,
+				DA310B491B2618BC00954039 /* LaunchScreen.xib in Resources */,
+				DA310B461B2618BC00954039 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA310B4C1B2618BC00954039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA310B321B2618BC00954039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA310B411B2618BC00954039 /* ViewController.swift in Sources */,
+				DA310B3F1B2618BC00954039 /* paid4pickup.xcdatamodeld in Sources */,
+				DA310B3C1B2618BC00954039 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA310B4A1B2618BC00954039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA310B551B2618BC00954039 /* paid4pickupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA310B501B2618BC00954039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA310B351B2618BC00954039 /* paid4pickup */;
+			targetProxy = DA310B4F1B2618BC00954039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA310B421B2618BC00954039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA310B431B2618BC00954039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA310B471B2618BC00954039 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA310B481B2618BC00954039 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA310B561B2618BC00954039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA310B571B2618BC00954039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA310B591B2618BC00954039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paid4pickup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA310B5A1B2618BC00954039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paid4pickup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA310B5C1B2618BC00954039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = paid4pickupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paid4pickup.app/paid4pickup";
+			};
+			name = Debug;
+		};
+		DA310B5D1B2618BC00954039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = paid4pickupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paid4pickup.app/paid4pickup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA310B311B2618BC00954039 /* Build configuration list for PBXProject "paid4pickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA310B561B2618BC00954039 /* Debug */,
+				DA310B571B2618BC00954039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA310B581B2618BC00954039 /* Build configuration list for PBXNativeTarget "paid4pickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA310B591B2618BC00954039 /* Debug */,
+				DA310B5A1B2618BC00954039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA310B5B1B2618BC00954039 /* Build configuration list for PBXNativeTarget "paid4pickupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA310B5C1B2618BC00954039 /* Debug */,
+				DA310B5D1B2618BC00954039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA310B3D1B2618BC00954039 /* paid4pickup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA310B3E1B2618BC00954039 /* paid4pickup.xcdatamodel */,
+			);
+			currentVersion = DA310B3E1B2618BC00954039 /* paid4pickup.xcdatamodel */;
+			path = paid4pickup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA310B2E1B2618BB00954039 /* Project object */;
+}
