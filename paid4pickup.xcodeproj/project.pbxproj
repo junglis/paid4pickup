@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1C36C31B26199A0011AD95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B3B1B2618BC00954039 /* AppDelegate.swift */; };
 		DA310B3C1B2618BC00954039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B3B1B2618BC00954039 /* AppDelegate.swift */; };
 		DA310B3F1B2618BC00954039 /* paid4pickup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA310B3D1B2618BC00954039 /* paid4pickup.xcdatamodeld */; };
 		DA310B411B2618BC00954039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA310B401B2618BC00954039 /* ViewController.swift */; };
@@ -225,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1C36C31B26199A0011AD95 /* AppDelegate.swift in Sources */,
 				DA310B551B2618BC00954039 /* paid4pickupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +417,7 @@
 				DA310B5A1B2618BC00954039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA310B5B1B2618BC00954039 /* Build configuration list for PBXNativeTarget "paid4pickupTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				DA310B5D1B2618BC00954039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
